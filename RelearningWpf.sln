@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelearningWpf", "RelearningWpf\RelearningWpf.csproj", "{04658057-BC16-4298-9D8D-60851CC049BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04658057-BC16-4298-9D8D-60851CC049BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04658057-BC16-4298-9D8D-60851CC049BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04658057-BC16-4298-9D8D-60851CC049BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04658057-BC16-4298-9D8D-60851CC049BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD68F45D-43CE-48AA-806F-BAE57D847F1D}
+	EndGlobalSection
+EndGlobal
