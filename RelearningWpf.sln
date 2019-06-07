@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelearningWpf", "RelearningWpf\RelearningWpf.csproj", "{04658057-BC16-4298-9D8D-60851CC049BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reIntroWpf", "reIntroWpf\reIntroWpf.csproj", "{BE4B4FAE-1494-4BFB-BEC9-B751EFC4939F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{1EFE597F-0AC6-4680-B885-650112169D24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04658057-BC16-4298-9D8D-60851CC049BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04658057-BC16-4298-9D8D-60851CC049BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04658057-BC16-4298-9D8D-60851CC049BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04658057-BC16-4298-9D8D-60851CC049BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4B4FAE-1494-4BFB-BEC9-B751EFC4939F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4B4FAE-1494-4BFB-BEC9-B751EFC4939F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4B4FAE-1494-4BFB-BEC9-B751EFC4939F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4B4FAE-1494-4BFB-BEC9-B751EFC4939F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFE597F-0AC6-4680-B885-650112169D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFE597F-0AC6-4680-B885-650112169D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFE597F-0AC6-4680-B885-650112169D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFE597F-0AC6-4680-B885-650112169D24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
