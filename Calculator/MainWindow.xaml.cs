@@ -68,10 +68,17 @@ namespace Calculator
 
         private void PercentButton_Click(object sender, RoutedEventArgs e)
         {
-            if (double.TryParse(resultLabel.Content.ToString(), out lastNumber))
+            double lastPercent;
+            if (double.TryParse(resultLabel.Content.ToString(), out lastPercent))
             {
-                lastNumber = lastNumber/100;
-                resultLabel.Content = lastNumber.ToString();
+                lastPercent = lastPercent/100;
+                resultLabel.Content = lastPercent.ToString();
+
+                if (lastNumber != 0)
+                {
+                    lastPercent = lastNumber * lastPercent;
+                    resultLabel.Content = lastPercent.ToString();
+                }
 
             }
         }
@@ -90,6 +97,8 @@ namespace Calculator
         private void AcButton_Click(object sender, RoutedEventArgs e)
         {
             resultLabel.Content = "0";
+            lastNumber = 0;
+            result = 0;
         }
 
        
@@ -174,7 +183,8 @@ namespace Calculator
         {
             public static double Add(double number1, double number2)
             {
-                return number1 + number2; 
+
+                return number1 + number2;
             }
 
             public static double Subtract(double number1, double number2)
@@ -191,7 +201,11 @@ namespace Calculator
 
             public static double Divide(double number1, double number2)
             {
-
+                if (number2 == 0)
+                {
+                    MessageBox.Show("Division by 0 is not supported","Wrong operation",MessageBoxButton.OK,MessageBoxImage.Error);
+                    return 0;
+                }
                 return number1 / number2;               
             }
         }
