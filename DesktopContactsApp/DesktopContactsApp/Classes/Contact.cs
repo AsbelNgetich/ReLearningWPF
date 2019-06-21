@@ -19,5 +19,10 @@ namespace DesktopContactsApp.Classes
 
         public string PhoneNumber { get; set; }
 
+        public override string ToString()
+        {
+            return $"{Name} - {Email} - {PhoneNumber}";
+        }
+
     }
 }
